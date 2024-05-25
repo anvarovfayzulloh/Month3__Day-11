@@ -1,0 +1,23 @@
+.notice{
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0px;
+}
+.notice__link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.003em;
+    
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}

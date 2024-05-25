@@ -4,5 +4,15 @@
 @import "variables";
 
 // BLOCKS
+@import "./blocks/notice";
 @import "./blocks/nav";
 @import "./blocks/hero";
+@import "./blocks/fashion";
+@import "./blocks/experience";
+
+.container {
+    max-width:  1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+}

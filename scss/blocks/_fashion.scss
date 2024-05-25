@@ -1,0 +1,105 @@
+.fashion__wrapper{
+    padding: 75px 0px 275px 0px;
+}
+
+.fashion__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fashion__title{
+    font-family: 'Manrope';
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 51.91px;
+    text-align: left;
+    @extend %dark;
+}
+.fashion__text{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    @extend %grey;
+    max-width: 975px;
+    padding-top: 20px;
+}
+.title__btn{
+    @extend %yellow-btn;
+    border: none;
+    border-radius: 32px;
+    padding: 14px 20px;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    color: #262626;
+}
+.fashion__categories{
+    margin: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #F1F1F3;
+}
+
+.categories__text{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    text-align: left;
+    @extend %grey;
+    margin: 24px 0px;
+    padding: 0px 16px;
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: #F1F1F3;
+
+    &:first-child{
+        border-width: 0px 1px 0px 0px;
+        padding: 0px 16px 0px 0px;
+    }
+
+    &:hover{
+        font-weight: 600;
+        @extend %dark;
+    }
+}
+.fashion__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 30px;
+}
+.fashion__card-img{
+    position: relative;
+}
+.basket__btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.fashion__card-content{
+    padding-top: 20px;
+}
+.fashion__card-title{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    @extend %light-dark;
+}
+.fashion__card-price{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #4C4C4D;
+}
