@@ -1,0 +1,52 @@
+.love{
+    
+    .fashion__text{
+        max-width: 951px;
+    }
+}
+.love__wrapper{
+    padding: 0px 0px 150px 0px;
+}
+.love__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 24px;
+    gap: 20px;
+    background-color: #FCFCFD;
+    border: 1px solid #F7F7F8;
+    margin-top: 60px;
+}
+.love__card{
+    background-color: #FFFFFF;
+    border:1px solid #F1F1F3;
+    padding: 40px;
+}
+.user__status{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    
+}
+.user__name{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    @extend %light-dark;
+    padding-bottom: 4px;
+    & + img{
+        width: 92px;
+        height: 16px; ;
+    }
+}
+.love__card-text{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    @extend %grey;
+    width: 100%;
+    
+}
