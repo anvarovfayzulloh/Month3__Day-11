@@ -1,0 +1,31 @@
+.question{
+
+    .fashion__text{
+        max-width: 1126px;
+    }
+}
+.question__wrapper{
+    padding-bottom: 60px;
+}
+.question__cards{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 20px;
+}
+.question__card{
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #F1F1F3;
+    border-radius: 14px;
+}
+.question__card-text{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    @extend %light-dark;
+}
