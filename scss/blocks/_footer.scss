@@ -1,0 +1,120 @@
+.footer__wrapper{
+    display: flex;
+    align-items: center;
+    border-width: 1px 0px 1px 0px ;
+    border-style: solid;
+    border-color: #F1F1F3;
+}
+.footer__form{
+    margin-right: 80px;
+}
+.footer__logo{
+    width: 60px;
+    height: 60px;
+}
+.footer__header{
+    display: flex;
+    margin-bottom: 24px;
+    .footer__links{
+        display: none;
+    }
+}
+.footer__links{
+    display: flex;
+    align-items: center;
+    gap: 0px 16px;
+}
+.form__footer{
+    display: flex;
+    gap: 0px 8px;
+}
+.footer__input{
+    border: 1px solid #F1F1F3;
+    border-radius: 32px;
+    background-color: #FCFCFD;
+    padding: 14px 0px 14px 16px;
+    min-width: 231px;
+    outline: none;
+    &::placeholder{
+        text-transform: capitalize;
+        font-family: 'Manrope';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+        color: #98989A;
+    }
+}
+.footer__submit{
+    @extend %yellow-btn;
+    padding: 14px 24px;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    @extend  %light-dark;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+
+}
+.footer__content{
+    padding: 60px 0px 60px 60px;
+    border-left: 1px solid #F1F1F3;
+    display: flex;
+    gap: 40px;
+    max-width: 839px;
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 14px 0px;
+    width: 195px;
+
+    &:last-child{
+        width: 73px;
+    }
+
+    li:first-child .footer__list-link{
+        color: #262626;
+        padding-bottom: 10px;
+        font-weight: 500;
+    }
+}
+.footer__list-link{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #656567;
+}
+.footer__end{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 0px;
+
+    
+}
+.footer__copyright{
+    display: flex;
+    gap: 0px 0px 6px 0px;
+    p:first-child{
+        margin-right: 20px;
+        padding-right: 20px;
+        border-right: 1px solid #F1F1F3;
+    }
+}
+.footer__text{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: -0.03em;
+    color: #98989A;
+
+}
