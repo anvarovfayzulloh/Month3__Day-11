@@ -15,11 +15,13 @@
     background-color: #FCFCFD;
     border: 1px solid #F7F7F8;
     margin-top: 60px;
+    border-radius: 16px;
 }
 .love__card{
     background-color: #FFFFFF;
     border:1px solid #F1F1F3;
     padding: 40px;
+    border-radius: 16px;
 }
 .user__status{
     display: flex;
@@ -35,6 +37,7 @@
     text-align: left;
     @extend %light-dark;
     padding-bottom: 4px;
+    white-space: nowrap;
     & + img{
         width: 92px;
         height: 16px; ;
@@ -49,4 +52,20 @@
     @extend %grey;
     width: 100%;
     
+}
+
+@media screen and (max-width: 1330px) {
+    .love__cards{
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .love__cards{
+        grid-template-columns: 1fr;
+    }
+    .love__card-text{
+        font-size: 14px;
+        line-height: 21px;
+    }
 }

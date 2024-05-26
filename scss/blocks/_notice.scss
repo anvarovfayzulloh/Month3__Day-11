@@ -1,9 +1,5 @@
 .notice{
     background-color: #1A1A1A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 0px;
 }
 .notice__link{
     display: flex;
@@ -20,4 +16,10 @@
         width: 20px;
         height: 20px;
     }
+}
+.notice__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0px;
 }

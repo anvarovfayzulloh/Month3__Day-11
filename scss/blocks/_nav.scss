@@ -48,3 +48,51 @@ nav{
       border: 1px solid transparent;
     }
 }
+.nav__action-mobile{
+    display: flex;
+    gap: 0px 10px;
+    align-items: center;
+    display: none;
+}
+.basket__mobile{
+    padding: 12px 13px;
+    @extend %yellow-btn;
+    border-radius: 100px;
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+.burger{
+
+    img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .nav__logo{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav__list{
+        li{
+            display: none;
+        }
+        display: none;
+    }
+    .nav__action-list{
+        li:first-child{
+            display: inline;
+        }
+    }
+    .nav__logo{
+        width: 35px;
+        height: 35px;
+    }
+    .nav__action-mobile{
+        display: flex;
+    }
+}
