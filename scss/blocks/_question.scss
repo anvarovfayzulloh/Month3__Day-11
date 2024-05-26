@@ -29,3 +29,15 @@
     text-align: left;
     @extend %light-dark;
 }
+
+@media screen and (max-width: 768px) {
+    .question__cards{
+        grid-template-columns: 1fr;
+
+        img{
+            width: 20px;
+            height: 20px;
+            margin-left: 40px;
+        }
+    }
+}

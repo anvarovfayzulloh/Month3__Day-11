@@ -25,9 +25,17 @@
 }
 .user__status{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 30px;
-    
+    padding-bottom: 30px;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+}
+.user__static{
+    padding-left: 10px;
 }
 .user__name{
     font-family: 'Manrope';
@@ -36,12 +44,6 @@
     line-height: 24px;
     text-align: left;
     @extend %light-dark;
-    padding-bottom: 4px;
-    white-space: nowrap;
-    & + img{
-        width: 92px;
-        height: 16px; ;
-    }
 }
 .love__card-text{
     font-family: 'Manrope';
@@ -63,6 +65,10 @@
 @media screen and (max-width: 1024px) {
     .love__cards{
         grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .love__card{
+        padding: 20px;
     }
     .love__card-text{
         font-size: 14px;
